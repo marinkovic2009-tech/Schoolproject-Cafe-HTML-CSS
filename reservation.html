@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+     <link rel="icon" type="image/png" href="pie.jpg" />
+  <title>Café Minki - Reservierung</title>
+</head>
+<body>
+  <header>
+    <h1> Café Minki </h1>
+    <nav>
+      <a href="index.html">Startseite</a> |
+      <a href="about.html">Über uns</a> |
+      <a href="menu.html">Speisekarte</a> |
+      <a href="reservation.html">Reservierung</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Reservierung</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input id="name" type="text" name="name"><br><br>
+
+      <label for="email">E-Mail-Adresse:</label><br>
+      <input id="email" type="email" name="email"><br><br>
+
+      <label for="personen">Anzahl der Personen:</label><br>
+      <select id="personen" name="personen">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5+</option>
+      </select><br><br>
+
+      <label for="datum">Datum und Uhrzeit:</label><br>
+      <input id="datum" type="datetime-local" name="datum"><br><br>
+
+      <label for="wunsch">Extrawünsche:</label><br>
+      <textarea id="wunsch" name="wunsch" rows="4" cols="30"></textarea><br><br>
+
+      <button type="submit">Absenden</button>
+      <button type="reset">Zurücksetzen</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy;Café Minki</p>
+  </footer>
+</body>
+</html>
