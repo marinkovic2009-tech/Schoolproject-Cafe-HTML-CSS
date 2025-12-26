@@ -17,7 +17,7 @@ The focus is on understanding the structure and styling of web pages without any
 | File             | Description                                      |
 |-----------------|--------------------------------------------------|
 | `index.html`     | Main page linking to all other sections/pages   |
-| `about.html`     | "About Us" page with information about the site/project |
+| `about.html`     | "About Us" page with information about the cafe |
 | `menu.html`      | Page showing the menu or offerings              |
 | `reservation.html` | Page with a reservation form or booking example |
 | `contact.html`   | Contact page with basic contact information    |
